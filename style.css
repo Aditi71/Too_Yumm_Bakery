@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://p4.wallpaperbetter.com/wallpaper/557/984/918/candles-cake-cake-sweet-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+    
+ul li{
+    display: inline-block;  
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+
+ul li a: hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 120px;
+    height: auto;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li .active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+    
+.btn : hover{
+    background-color: #000;
+    color: #fff;
+}
+
+

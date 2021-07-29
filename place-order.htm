@@ -1,0 +1,97 @@
+<html>
+   <style>
+       
+       body{
+           
+           margin: auto auto auto 0%;
+           padding: 10px 30px;
+           background-color: lightblue;
+           min-height: 100vh;
+           width: 100%;
+           background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://wallpaperaccess.com/full/208653.jpg);
+           background-position: center;
+           background-size: cover;
+           position: relative;
+           text-align: left;
+           font-size: 20;
+           font-family: verdana;
+           color: #fff;
+          
+       }
+       
+      .body form{
+            background-color: pink;
+       }
+       
+       header{
+           font-size: 35;
+           font-family: Raleway;
+           color: pink;
+       }
+       
+       .button{
+           position: absolute;
+    top: auto;
+    left: 12%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+    
+.btn : hover{
+    background-color: #fff;
+    color: grey;
+}
+
+       h1{
+           text-align: center;
+       }
+
+   </style> 
+ 
+    <header>
+        <title> order form </title>
+        <h1> <b> Hurry Up! Order Now </b> </h1><br>
+    </header>
+    
+ <body>
+      
+     <form>
+          Name :  <input type="text" name = "Name"/><br><br>
+         
+        Address :  <textarea rows="2" cols = "30" name = "Address" >Your address here </textarea>           <br><br>
+         
+        Email Id :  <input type="text" name = "Email Id"/><br><br>
+         
+        Phone No. : <input type="text" name = "Country code" value="+91" size = "2"/>
+        <input type="text" name = "Phone" size = "10" maxlength = "10"/><br><br>
+         
+        
+<lable>City : </lable>
+<select id="city" name="city">
+   <option value="Nagpur">Nagpur</option>
+   <option value="Thane">Thane</option>
+   <option value="Bhandara">Bhandara</option>
+   <option value="Gondia">Gondia</option>
+   <option value="Amravati">Amravati</option>
+ </select> <br><br><br>
+         
+         
+         
+        <div class="button">
+         <a href="#" class="btn">Order Now</a>
+         </div>
+       
+
+       
+     </form>
+     
+ </body>
+</html>
