@@ -6,11 +6,12 @@
 header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://p4.wallpaperbetter.com/wallpaper/557/984/918/candles-cake-cake-sweet-wallpaper-preview.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F1970%2F01%2Fclassic_southern_pound_cake_2507301_02_0_0-2000.jpg&q=85);
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
 
 ul{
     float: right;
@@ -63,12 +64,18 @@ ul li .active a{
 
 .title h1{
     color: #fff;
-    font-size: 70px;
+    font-size: 100px;
 }
+
+p{
+        color: white;
+        font-size: 30;
+        text-align: center;
+    }
 
 .button{
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
